@@ -92,8 +92,6 @@ mirror_prob,model,acc_original,acc_mirror
 
 ```
 
-![output](outputs/symmetry_comparison_2025-10-21_22-46-07.png)
-
 ---
 
 
