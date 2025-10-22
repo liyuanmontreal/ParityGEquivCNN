@@ -1,3 +1,6 @@
+import sys, os
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+
 import torch, cv2, csv
 from pathlib import Path
 from utils.feature_tools import register_conv_hooks, tensor_to_mean_map, corr2, ensure_sample_image

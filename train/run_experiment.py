@@ -1,7 +1,10 @@
+
+import sys, os
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+
 import torch
 from torch.utils.data import DataLoader
 from pathlib import Path
-import os
 from utils.data_tools import SynthShapes
 from models.cnn_baseline import CNNBaseline
 from models.parity_invariant import ParityInvariantCNN
@@ -31,7 +34,8 @@ def eval_mirrored(model, loader, device="cpu"):
 
 def main():
     device = "cuda" if torch.cuda.is_available() else "cpu"
-    tr, va = make_loaders(n=4000, mirror_prob=0.5, batch_size=64, seed=0)
+    #tr, va = make_loaders(n=4000, mirror_prob=0.5, batch_size=64, seed=0)
+    tr, va = make_loaders(n=4000, mirror_prob=0.0, batch_size=64)
 
     # Baseline
     base = CNNBaseline()
