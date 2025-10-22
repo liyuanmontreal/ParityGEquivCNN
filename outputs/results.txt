@@ -1,0 +1,2 @@
+Baseline: acc=0.958, acc_mirror=0.466
+ParityInvariant: acc=0.970, acc_mirror=0.506

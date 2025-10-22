@@ -1,0 +1,7 @@
+mirror_prob,model,acc_original,acc_mirror
+0.0,baseline,0.97125,0.505
+0.0,parity_invariant,0.95625,0.52625
+0.5,baseline,0.95875,0.95375
+0.5,parity_invariant,0.905,0.90125
+1.0,baseline,0.97875,0.4825
+1.0,parity_invariant,0.97,0.49
