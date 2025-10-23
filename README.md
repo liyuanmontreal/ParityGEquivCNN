@@ -3,10 +3,10 @@ Learning from Parity: Mirror-Equivariant CNNs with Layer-wise Analysis
 
 ---
 
-## 🌐 Overview / 实验简介
+## 🌐 Overview 
 
-**ParityGEquivCNN** explores how convolutional networks can learn mirror (parity) symmetry intrinsically, achieving structural robustness without data augmentation.  
-**ParityGEquivCNN** 研究卷积网络如何在结构上学习镜像（宇称）对称性，从而在不依赖数据增强的情况下实现结构鲁棒性。
+ParityGEquivCNN explores how convolutional networks can learn mirror (parity) symmetry intrinsically, achieving structural robustness without data augmentation.  
+ParityGEquivCNN 研究卷积网络如何在结构上学习镜像（宇称）对称性，从而在不依赖数据增强的情况下实现结构鲁棒性。
 ---
 
 ##  Structure
